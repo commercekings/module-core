@@ -1,0 +1,17 @@
+<?php
+/** @var \Magento\Backend\Block\Template $block */
+/** @var \Magento\Framework\Escaper $escaper */
+$section = $block->getRequest()->getParam('section');
+if (!is_string($section) || !str_starts_with($section, 'commercekings_')) {
+    return;
+}
+?>
+<p class="commercekings-config-footer">
+    <small>
+        <?= $escaper->escapeHtml(__('Developed by')) ?>
+        <a href="https://commercekings.net" target="_blank" rel="noopener noreferrer"
+           aria-label="<?= $escaper->escapeHtmlAttr(__('CommerceKings (opens in a new tab)')) ?>">
+            CommerceKings<span aria-hidden="true"></span>
+        </a>
+    </small>
+</p>

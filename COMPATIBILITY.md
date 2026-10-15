@@ -1,0 +1,15 @@
+# Compatibility and verification
+
+The first-release runtime target is Magento Open Source 2.4.9 with PHP 8.5.
+The Composer PHP range is a dependency constraint, not a claim that every
+Magento/PHP combination has passed runtime testing.
+
+Verified locally on 2026-10-15: Composer installation, native XML schemas, the
+shared configuration tab, footer rendering on CommerceKings sections only,
+admin static-content deployment, Magento DI compilation, database status,
+PHPStan level 5 and Magento2 coding standards. This module contains no storefront
+integration or database schema. Repeat checks alongside the feature packages
+before release; installation from distribution archives remains pending.
+
+The GitHub workflow checks package metadata, PHP syntax on 8.1–8.5 and Git archive
+contents. Runtime support for other Magento versions remains unverified.

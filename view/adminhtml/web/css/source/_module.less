@@ -1,0 +1,39 @@
+// Shared CommerceKings admin branding.
+& when (@media-common = true) {
+    .commercekings-tab .title:before {
+        content: '';
+        display: inline-block;
+        width: 2.2rem;
+        height: 1.6rem;
+        margin: -.2rem .3rem 0 0;
+        vertical-align: middle;
+        background: url('CommerceKings_Core::images/commercekings-emblem.svg') no-repeat center / contain;
+    }
+
+    .commercekings-config-footer {
+        color: @color-gray40;
+        font-weight: 400;
+        line-height: 1.3;
+        margin: 1rem 0;
+
+        a {
+            display: inline-block;
+            font-weight: 600;
+            padding-right: .85em;
+            position: relative;
+            white-space: nowrap;
+
+            span {
+                position: absolute;
+                right: 0;
+                top: -.25em;
+
+                &:before {
+                    &:extend(.abs-icon all);
+                    content: @icon-external-link__content;
+                    font-size: .65em;
+                }
+            }
+        }
+    }
+}
