@@ -10,6 +10,14 @@
         background: url('CommerceKings_Core::images/commercekings-emblem.svg') no-repeat center / contain;
     }
 
+    // Magento drops the divider under a page's last group (".admin__fieldset > .section-config:last-child",
+    // ".accordion .form-inline > .section-config:last-child" with the shorthand "border-bottom: 0", which
+    // also resets the style); a page with one group then runs straight into the footer. One more class wins.
+    .accordion .form-inline > .section-config.commercekings-config-section:last-child,
+    .admin__fieldset > .section-config.commercekings-config-section:last-child {
+        border-bottom: 1px solid @collapsible__border-color;
+    }
+
     .commercekings-config-footer {
         color: @color-gray40;
         font-weight: 400;

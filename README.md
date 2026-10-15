@@ -29,6 +29,10 @@ after `CommerceKings_Core` in `etc/module.xml`. In your own `etc/adminhtml/syste
 use `<tab>commercekings</tab>` without redeclaring the tab. Name your section
 `commercekings_<feature>` to display the shared footer.
 
+For a native configuration fieldset that ends directly above the footer, add
+`<fieldset_css>commercekings-config-section</fieldset_css>` to its group to keep
+Magento's divider above the branding.
+
 The core has no dependency on Consent or any other CommerceKings feature, so future
 standalone modules can reuse the tab without installing consent functionality.
 
