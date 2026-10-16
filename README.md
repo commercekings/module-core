@@ -7,8 +7,7 @@ Works with Magento 2.4+ · PHP 8.1–8.5
 **One home for every CommerceKings module in the Magento admin.**
 
 Shared admin branding for CommerceKings modules: one **CommerceKings** configuration tab with the crown icon, and a
-"Developed by CommerceKings" footer on CommerceKings configuration pages. On the storefront, it keeps the page cache's
-store view and currency on CommerceKings endpoints. No settings or tables.
+"Developed by CommerceKings" footer on CommerceKings configuration pages. No settings, tables or storefront code.
 
 ## Installation
 
@@ -26,10 +25,6 @@ bin/magento setup:upgrade
   get the footer.
 - Add `<fieldset_css>commercekings-config-section</fieldset_css>` to the last group to keep Magento's divider above
   the footer.
-- Controllers on the action interfaces: add your route id to `CommerceKings\Core\Observer\KeepVaryCookie` (argument
-  `routes`) in `etc/frontend/di.xml`, so they keep the shopper's store view and currency in the page cache. It is for
-  non-cacheable endpoints only: a cacheable page needs the store and currency context initialized, or it can be
-  cached under the wrong store view or currency.
 
 ## More
 
