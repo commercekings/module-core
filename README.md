@@ -27,7 +27,9 @@ bin/magento setup:upgrade
 - Add `<fieldset_css>commercekings-config-section</fieldset_css>` to the last group to keep Magento's divider above
   the footer.
 - Controllers on the action interfaces: add your route id to `CommerceKings\Core\Observer\KeepVaryCookie` (argument
-  `routes`) in `etc/frontend/di.xml`, so they keep the shopper's store view and currency in the page cache.
+  `routes`) in `etc/frontend/di.xml`, so they keep the shopper's store view and currency in the page cache. It is for
+  non-cacheable endpoints only: a cacheable page needs the store and currency context initialized, or it can be
+  cached under the wrong store view or currency.
 
 ## More
 

@@ -12,7 +12,8 @@ use Magento\Framework\Event\ObserverInterface;
  * Keep X-Magento-Vary as the last page set it on the listed routes. Magento sets the store and currency context only
  * for controllers extending the deprecated AbstractAction, so ours would rewrite the cookie without them;
  * PageCache\Model\App\Response\HttpPlugin skips responses marked NotCacheable. Modules add their route ids in
- * etc/frontend/di.xml (argument "routes").
+ * etc/frontend/di.xml (argument "routes"). Non-cacheable endpoints only: a missing cookie stays missing, so a
+ * cacheable page here could be stored under the default store view and currency.
  */
 class KeepVaryCookie implements ObserverInterface
 {
