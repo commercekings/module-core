@@ -1,4 +1,4 @@
-# CommerceKings_Core
+# CommerceKings admin branding
 
 Shared admin branding for CommerceKings modules: one **CommerceKings** configuration tab with the crown icon, and a
 "Developed by CommerceKings" footer on CommerceKings configuration pages. No settings, tables or storefront code.
