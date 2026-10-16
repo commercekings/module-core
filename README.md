@@ -2,6 +2,8 @@
 
 Works with Magento 2.4+ · PHP 8.1–8.5
 
+[![License](https://badgen.net/github/license/commercekings/module-core)](LICENSE) [![Release](https://badgen.net/github/release/commercekings/module-core)](https://github.com/commercekings/module-core/releases) [![Checks](https://badgen.net/github/checks/commercekings/module-core/main?label=checks)](https://github.com/commercekings/module-core/actions)
+
 **One home for every CommerceKings module in the Magento admin.**
 
 Shared admin branding for CommerceKings modules: one **CommerceKings** configuration tab with the crown icon, and a
