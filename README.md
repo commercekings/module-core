@@ -1,5 +1,7 @@
 # CommerceKings admin branding
 
+Works with Magento 2.4+ · PHP 8.1–8.5
+
 **One home for every CommerceKings module in the Magento admin.**
 
 Shared admin branding for CommerceKings modules: one **CommerceKings** configuration tab with the crown icon, and a
