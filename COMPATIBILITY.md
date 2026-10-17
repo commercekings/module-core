@@ -4,6 +4,9 @@ The first-release runtime target is Magento Open Source 2.4.9 with PHP 8.5.
 The Composer PHP range is a dependency constraint, not a claim that every
 Magento/PHP combination has passed runtime testing.
 
+**Minimum: Magento Open Source 2.4.4**, enforced by `magento/framework: ^103.0.4`. Magento 2.4.0–2.4.3
+run only on PHP 7.3/7.4; this package needs PHP 8.1.
+
 Verified locally on 2026-10-15: Composer installation, native XML schemas, the
 shared configuration tab, footer rendering on CommerceKings sections only,
 admin static-content deployment, Magento DI compilation, database status,
