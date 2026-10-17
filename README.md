@@ -2,7 +2,7 @@
 
 Works with Magento 2.4.4+ · PHP 8.1–8.5
 
-[![License](https://badgen.net/github/license/commercekings/module-core)](LICENSE) [![Release](https://badgen.net/github/release/commercekings/module-core)](https://github.com/commercekings/module-core/releases) [![Checks](https://badgen.net/github/checks/commercekings/module-core/main?label=checks)](https://github.com/commercekings/module-core/actions)
+[![License](https://badgen.net/github/license/commercekings/module-core)](LICENSE) [![Release](https://badgen.net/github/release/commercekings/module-core)](https://github.com/commercekings/module-core/releases) [![Checks](https://github.com/commercekings/module-core/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/commercekings/module-core/actions/workflows/checks.yml)
 
 **One home for every CommerceKings module in the Magento admin.**
 
