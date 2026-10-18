@@ -29,3 +29,5 @@ bin/magento setup:upgrade
 ## More
 
 [Compatibility](COMPATIBILITY.md) · [Changes](CHANGELOG.md)
+
+**Need help installing or setting it up?** **[Get a quote →](https://commercekings.net)**
