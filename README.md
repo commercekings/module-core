@@ -1,4 +1,4 @@
-# CommerceKings admin branding
+# CommerceKings admin branding<a href="https://commercekings.net"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/commercekings/module-core/main/.github/commercekings-dark.svg"><img align="right" width="152" src="https://raw.githubusercontent.com/commercekings/module-core/main/.github/commercekings-light.svg" alt="Built by CommerceKings. Ready to sell more? Talk to us"></picture></a>
 
 Works with Magento 2.4.4+ · PHP 8.1–8.5
 
@@ -18,7 +18,7 @@ composer require commercekings/module-core:^0.1
 bin/magento setup:upgrade
 ```
 
-## For module authors
+## Extending
 
 - Require `commercekings/module-core` and sequence your module after it in `etc/module.xml`.
 - In `etc/adminhtml/system.xml`, use `<tab>commercekings</tab>` and name your section `commercekings_<feature>` to
