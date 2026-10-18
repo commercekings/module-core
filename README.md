@@ -30,6 +30,6 @@ bin/magento setup:upgrade
 
 [Compatibility](COMPATIBILITY.md) · [Changes](CHANGELOG.md)
 
----
+## Need help installing or setting it up?
 
-**Need help installing or setting it up?** **[Get a quote →](https://commercekings.net)**
+**[Get a quote →](https://commercekings.net)**
