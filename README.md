@@ -26,13 +26,13 @@ bin/magento setup:upgrade
 - Add `<fieldset_css>commercekings-config-section</fieldset_css>` to the last group to keep Magento's divider above
   the footer.
 
-## More
-
-[Compatibility](COMPATIBILITY.md) · [Changes](CHANGELOG.md)
-
 ## Tested (as of 0.1.0)
 
 Shared admin branding only – tested with every module that uses it (12 unit tests of its own). See *Tested* in [Notification](https://github.com/commercekings/module-notification#tested-as-of-010), [Abandoned Cart](https://github.com/commercekings/module-abandoned-cart#tested-as-of-010) and [Provable Consent](https://github.com/commercekings/module-consent#tested-as-of-010).
+
+## More
+
+[Compatibility](COMPATIBILITY.md) · [Changes](CHANGELOG.md)
 
 ---
 
